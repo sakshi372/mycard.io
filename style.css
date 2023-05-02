@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    overflow: hidden;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color:rgb(197, 197, 197);
+}
+
+.card{
+    width: 250px;
+    height: 370px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:hsl(0, 2%, 88%);
+    border-radius: 10px;
+    box-shadow:5px 5px 5px  gray, -5px -5px 5px white;
+}
+
+.top-arrow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile img{
+    margin: auto;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    border: 5px solid rgb(191, 191, 191);
+    box-shadow:0px 2px 2px  gray, -1px -1px 2px white;
+}
+.likeShare{
+  display: flex;  
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.social-media a:first-child{
+    color: blue;
+}
+
+.social-media a:nth-child(2){
+    color: rgb(202, 157, 8);
+}
+
+.social-media a:nth-child(3){
+    color: palevioletred;
+}
+.social-media a:last-child{
+    color: brown;
+}
+
+.social-media{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-media i{
+    font-size: 21px;
+    /* box-shadow:-5px -5px  rgb(116, 115, 115), 5px 5px 5px white ; */
+    margin: 5px;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 11px;
+}
+
+.btn button{
+    padding: 5px 9px;
+    border-radius: 9px;
+}
+
+.likeShare div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 9px;
+    margin-top: 15px;
+}
+
+.likeShare P{
+    font-size: 15px;
+    color: rgb(82, 82, 99);
+}
+
+.line{
+    height: 30px;
+    width: 2px;
+    background-color: black;
+}
+
+.heart{
+    margin-right: 11px;
+}
+
+.heart i{
+    color: red;
+}
+
+.heart i:hover{
+    font-size: 20px;
+}
+
+.comment{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.comment i{
+    color: rgb(49, 126, 100);
+}
+
+.comment i:hover{
+    font-size: 20px;
+}
+
+.share{
+    margin-left: 11px;
+}
+
+.share i{
+    color: rgb(93, 93, 212);
+}
+
+.share i:hover{
+    font-size: 20px;}
